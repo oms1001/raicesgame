@@ -176,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -185,6 +186,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &23465750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,6 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -285,6 +293,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &28561701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,6 +390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -385,6 +400,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &29576597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,6 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -589,6 +611,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &71372571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,6 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -689,6 +718,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &78264796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,6 +846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -820,6 +856,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &107670188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -911,6 +953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -920,6 +963,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &132190560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,6 +1060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1020,6 +1070,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &138950413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1111,6 +1167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1120,6 +1177,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &164641655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,6 +1274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1220,6 +1284,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &207077578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1311,6 +1381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1320,6 +1391,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &207520171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1549,6 +1626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1558,6 +1636,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &240623428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,6 +1733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1658,6 +1743,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &248706098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1749,6 +1840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1758,6 +1850,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &295202711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1849,6 +1947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1858,6 +1957,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &295349388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1949,6 +2054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -1958,6 +2064,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &327831321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2049,6 +2161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2058,6 +2171,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &367220910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2149,6 +2268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2158,6 +2278,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &374119487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,6 +2375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2258,6 +2385,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &405573027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2349,6 +2482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2358,6 +2492,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &417632474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2449,6 +2589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2458,6 +2599,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &456461978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2549,6 +2696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2558,6 +2706,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &476363791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2649,6 +2803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2658,6 +2813,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &488825540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2749,7 +2910,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 394.05267
+  orthographic size: 223.40654
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2773,7 +2934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 439.5088, y: 193.00386, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2937,6 +3098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -2946,6 +3108,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &562451412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3037,6 +3205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3046,6 +3215,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &578113962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3137,6 +3312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3146,6 +3322,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &579317392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3237,6 +3419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3246,6 +3429,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &582810154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3337,6 +3526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3346,6 +3536,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &679492006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3551,6 +3747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3560,6 +3757,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &712430857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3651,6 +3854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3660,6 +3864,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &749718159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3855,6 +4065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3864,6 +4075,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &826166802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3955,6 +4172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -3964,6 +4182,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &890951405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4055,6 +4279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4064,6 +4289,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &929441427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4155,6 +4386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4164,6 +4396,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &963810432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4255,6 +4493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4264,6 +4503,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &985758847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4355,6 +4600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4364,6 +4610,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1059327589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4455,6 +4707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4464,6 +4717,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1063300861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4623,6 +4882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4632,6 +4892,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1088985861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4723,6 +4989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4732,6 +4999,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1106511834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4823,6 +5096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4832,6 +5106,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1127754605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4923,6 +5203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -4932,6 +5213,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1135865759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5023,6 +5310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5032,6 +5320,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1151998626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5123,6 +5417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5132,6 +5427,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1159800880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5223,6 +5524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5232,6 +5534,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1161421119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5323,6 +5631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5332,6 +5641,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1211350603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5423,6 +5738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5432,6 +5748,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1225071625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5523,6 +5845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5532,6 +5855,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1225363786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5623,6 +5952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5632,6 +5962,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1232837520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5723,6 +6059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5732,6 +6069,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1240500871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5823,6 +6166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5832,6 +6176,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1272821027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5923,6 +6273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -5932,6 +6283,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1308879050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6023,6 +6380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6032,6 +6390,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1352471273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6123,6 +6487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6132,6 +6497,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1353818883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6223,6 +6594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6232,6 +6604,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1361451267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6323,6 +6701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6332,6 +6711,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1364809968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6423,6 +6808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6432,6 +6818,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1398101954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6627,6 +7019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6636,6 +7029,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1420872426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6727,6 +7126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6736,6 +7136,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1429705547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6931,6 +7337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -6940,6 +7347,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1456592943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7031,6 +7444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7040,6 +7454,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1464986049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7131,6 +7551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7140,6 +7561,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1476942535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7231,6 +7658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7240,6 +7668,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1510917825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7331,6 +7765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7340,6 +7775,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1512847268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7431,6 +7872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7440,6 +7882,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1543590556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7531,6 +7979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7540,6 +7989,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1546597170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7631,6 +8086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7640,6 +8096,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1549903315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7731,6 +8193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7740,6 +8203,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1549959643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7831,6 +8300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7840,6 +8310,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1565257894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7931,6 +8407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -7940,6 +8417,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1580889843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8031,6 +8514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8040,6 +8524,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1587418338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8131,6 +8621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8140,6 +8631,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1606847625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8231,6 +8728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8240,6 +8738,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1608465715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8331,6 +8835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8340,6 +8845,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1613417794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8431,6 +8942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8440,6 +8952,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1625389479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8531,6 +9049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8540,6 +9059,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1630876604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8631,6 +9156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8640,6 +9166,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1631190897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8731,6 +9263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8740,6 +9273,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1638163300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8831,6 +9370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -8840,6 +9380,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1681093088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9035,6 +9581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9044,6 +9591,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1743591298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9135,6 +9688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9144,6 +9698,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1764539264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9235,6 +9795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9244,6 +9805,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1774562900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9335,6 +9902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9344,6 +9912,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1812887412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9435,6 +10009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9444,6 +10019,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1826117101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9639,6 +10220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9648,6 +10230,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1834429122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9739,6 +10327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9748,6 +10337,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1838994163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9839,6 +10434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9848,6 +10444,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1868417512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9939,6 +10541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -9948,6 +10551,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1873905291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10039,6 +10648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10048,6 +10658,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1895033918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10139,6 +10755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10148,6 +10765,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1936401730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10239,6 +10862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10248,6 +10872,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1942503108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10339,6 +10969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10348,6 +10979,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1945691505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10439,6 +11076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10448,6 +11086,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1963432077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10539,6 +11183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10548,6 +11193,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1968920661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10639,6 +11290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10648,6 +11300,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &1995262796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10739,6 +11397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10748,6 +11407,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &2042473323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10839,6 +11504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10848,6 +11514,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &2045686203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10939,6 +11611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -10948,6 +11621,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &2080921102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11039,6 +11718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -11048,6 +11728,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &2090629212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11139,6 +11825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -11148,6 +11835,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &2118414276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11239,6 +11932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapa: {fileID: 235139853}
   numero_de_celda: 0
+  numero_de_raices: 0
   contenido_celda: "Vac\xEDo"
   arriba_izquierda: 0
   arriba_centro: 0
@@ -11248,6 +11942,12 @@ MonoBehaviour:
   abajo_izquierda: 0
   abajo_centro: 0
   abajo_derecha: 0
+  Sprites:
+  - {fileID: 21300000, guid: 6563204ebf38a9a49891e052758bdef0, type: 3}
+  - {fileID: 21300000, guid: 22916f3a335a9f14a90523d94c54e2d9, type: 3}
+  - {fileID: 21300000, guid: 10b427e397d97bd44b13a11507a9e83f, type: 3}
+  - {fileID: 21300000, guid: 36498a66689c5564b8f22fa171c4f7d2, type: 3}
+  ParentPanel: {fileID: 690321253}
 --- !u!114 &2127059489
 MonoBehaviour:
   m_ObjectHideFlags: 0

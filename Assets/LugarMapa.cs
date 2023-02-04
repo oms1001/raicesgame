@@ -37,7 +37,7 @@ public class LugarMapa : MonoBehaviour, IDropHandler
             derecha = numero_de_celda + 1;
             abajo_izquierda = numero_de_celda + 9;
             abajo_centro = numero_de_celda + 10;
-            abajo_izquierda = numero_de_celda + 11;
+            abajo_derecha = numero_de_celda + 12;
 
             abajo_derecha = numero_de_celda + 1;
             var celda_mapas = mapa.GetComponentsInChildren<Transform>(true);
@@ -53,18 +53,60 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                     // Debug.Log(ob.name);
                     if (ob.tag == "Holder")
                     {
+                        //if ()
+                        if (contenido_celda.Contains("entrada_arriba_salida_abajo")) { 
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_derecha)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.blue;
+                        }
                         if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
                         {
-                            Debug.Log(ob.GetComponent<LugarMapa>().numero_de_celda);
-                            Debug.Log(ob.GetComponent<LugarMapa>().contenido_celda);
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
                             ob.GetComponent<Image>().color = Color.red;
+                            if (tipo_celda.Contains("salida_abajo"))
+                            {
+                                Debug.Log("Celda aprobada");
+                            }
+                            else {
+                                Debug.Log("Celda rechazada");
+                            }
+                        }
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_izquierda)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.blue;
+                        }
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.green;
+                        }
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.green;
+                        }
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_derecha)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.blue;
+                        }
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_centro)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.red;
+                        }
+                        if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_izquierda)
+                        {
+                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                            ob.GetComponent<Image>().color = Color.blue;
                         }
 
                     }
+                    }
                 }
             }
-
-            // Debug.Log(mapa.GetComponentsInChildren<Transform>(true));
 
             // var raiz_ultima = eventData.pointerDrag.GetComponent<DragAndDrop>().tipoDeRaiz;
         }

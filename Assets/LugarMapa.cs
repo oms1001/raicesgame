@@ -10,7 +10,8 @@ public class LugarMapa : MonoBehaviour, IDropHandler
     [SerializeField] private GameObject mapa;
 
     public int numero_de_celda = 0;
-    public string contenido_celda = "Vac�o";
+    public int numero_de_raices = 0;
+    public string contenido_celda = "Vac�o";
     public int arriba_izquierda;
     public int arriba_centro;
     public int arriba_derecha;
@@ -19,7 +20,7 @@ public class LugarMapa : MonoBehaviour, IDropHandler
     public int abajo_izquierda;
     public int abajo_centro;
     public int abajo_derecha;
-
+    // public Vector2 initial_position;
 
 
     public void OnDrop(PointerEventData eventData)
@@ -37,9 +38,7 @@ public class LugarMapa : MonoBehaviour, IDropHandler
             derecha = numero_de_celda + 1;
             abajo_izquierda = numero_de_celda + 9;
             abajo_centro = numero_de_celda + 10;
-            abajo_derecha = numero_de_celda + 12;
-
-            abajo_derecha = numero_de_celda + 1;
+            abajo_derecha = numero_de_celda + 11;
             var celda_mapas = mapa.GetComponentsInChildren<Transform>(true);
 
 
@@ -54,63 +53,225 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                     if (ob.tag == "Holder")
                     {
                         //if ()
-                        if (contenido_celda.Contains("entrada_arriba_salida_abajo")) { 
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_derecha)
+
+
+                        // Comprobar celdas cercanas
+
+                        if (contenido_celda.Contains("entrada_arriba_salida_abajo"))
                         {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.blue;
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.red;
-                            if (tipo_celda.Contains("salida_abajo"))
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_derecha)
                             {
-                                Debug.Log("Celda aprobada");
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.blue;
                             }
-                            else {
-                                Debug.Log("Celda rechazada");
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_abajo"))
+                                {
+                                    Debug.Log("Celda aprobada");
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
                             }
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_izquierda)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.blue;
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.green;
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.green;
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_derecha)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.blue;
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_centro)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.red;
-                        }
-                        if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_izquierda)
-                        {
-                            var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                            ob.GetComponent<Image>().color = Color.blue;
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_izquierda)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.blue;
+                            }
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.green;
+                            }
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.green;
+                            }
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_derecha)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.blue;
+                            }
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_centro)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                            }
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_izquierda)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.blue;
+                            }
+
                         }
 
+
+
+
+                        // Fin de comprobación de celdas
+
+                        // Comprobar celdas cercanas _ Pieza con entrada arriba salida derecha
+
+                        if (contenido_celda.Contains("entrada_arriba_salida_derecha"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_abajo"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Inicio comprobación
+                        if (contenido_celda.Contains("entrada_arriba_salida_abajo_salida_izquierda_salida_derecha"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_abajo"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Fin comprobación
+                        // Inicio comprobación
+                        if (contenido_celda.Contains("entrada_arriba_salida_abajo_salida_derecha"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_abajo"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Fin comprobación
+                        // Inicio comprobación
+                        if (contenido_celda.Contains("entrada_arriba_salida_derecha"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_abajo"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Fin comprobación
+                        // Inicio comprobación
+                        if (contenido_celda.Contains("entrada_derecha_salida_abajo"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_derecha"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Fin comprobación
+                        // Inicio comprobación
+                        if (contenido_celda.Contains("entrada_derecha_salida_abajo"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_derecha"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Fin comprobación
+                        // Inicio comprobación
+                        if (contenido_celda.Contains("entrada_izquierda_salida_abajo"))
+                        {
+                            if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
+                            {
+                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
+                                ob.GetComponent<Image>().color = Color.red;
+                                if (tipo_celda.Contains("salida_derecha"))
+                                {
+                                    celda_aprobada();
+                                }
+                                else
+                                {
+                                    celda_rechazada();
+                                }
+                            }
+
+                        }
+                        // Fin comprobación
+
                     }
-                    }
+
+
                 }
             }
-
-            // var raiz_ultima = eventData.pointerDrag.GetComponent<DragAndDrop>().tipoDeRaiz;
         }
+
+        // var raiz_ultima = eventData.pointerDrag.GetComponent<DragAndDrop>().tipoDeRaiz;
+    }
+    public void celda_rechazada() {
+
+        Debug.Log("Celda Rechazada");
         
+
+
+    }
+
+    public void celda_aprobada()
+    {
+
+        Debug.Log("celda_aprobada");
+        numero_de_raices++;
     }
 
 }
+

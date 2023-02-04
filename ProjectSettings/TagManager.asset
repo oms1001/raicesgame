@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Holder
+  - Canvas
+  - Mapa
   layers:
   - Default
   - TransparentFX

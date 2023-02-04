@@ -10,7 +10,7 @@ public class GlobalState : MonoBehaviour
     {
         var raiz = GameObject.Find("Raíz");
         Debug.Log(raiz.GetComponent<DragAndDrop>().tipoDeRaiz);
-        var Mapa = GameObject.Find("Mapa");
+        var Mapa = GameObject.Find("Canvas");
         var elementos = Mapa.GetComponentsInChildren<Transform>(true);
         int numero_celda = 1;
         foreach (var ob in elementos)

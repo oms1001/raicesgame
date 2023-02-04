@@ -11,12 +11,12 @@ using UnityEngine.EventSystems;
 public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 
 {
-    [SerializeField] private Canvas canvas;
+    [SerializeField] public Canvas canvas;
     public string tipoDeRaiz;
-    private RectTransform rectTransform;
-    private CanvasGroup canvasGroup;
+    public RectTransform rectTransform;
+    public CanvasGroup canvasGroup;
 
-    private void Awake()
+    private void Start()
 
     {
         rectTransform = GetComponent<RectTransform>();

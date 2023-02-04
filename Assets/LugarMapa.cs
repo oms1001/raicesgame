@@ -78,7 +78,7 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                                 ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_abajo"))
                                 {
-                                    Debug.Log("Celda aprobada");
+                                    celda_aprobada();
                                 }
                                 else
                                 {
@@ -160,32 +160,7 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                                     celda_rechazada(eventData);
                                 }
                             }
-                            else if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
-                            {
-                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
-                                if (tipo_celda.Contains("salida_derecha"))
-                                {
-                                    celda_aprobada();
-                                }
-                                else
-                                {
-                                    celda_rechazada(eventData);
-                                }
-                            }
-                            else if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
-                            {
-                                var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
-                                if (tipo_celda.Contains("salida_salida"))
-                                {
-                                    celda_aprobada();
-                                }
-                                else
-                                {
-                                    celda_rechazada(eventData);
-                                }
-                            }
+                            
 
                         }
                         // Fin comprobación

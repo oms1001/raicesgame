@@ -13,6 +13,7 @@ public class LugarMapa : MonoBehaviour, IDropHandler
         if (eventData.pointerDrag != null)
         {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+            Debug.Log(eventData.pointerDrag.GetComponent<DragAndDrop>().tipoDeRaiz);
         }
     }
 

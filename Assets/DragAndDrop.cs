@@ -12,12 +12,14 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
 {
     [SerializeField] private Canvas canvas;
+    public string tipoDeRaiz;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
     private void Awake()
 
     {
+        var raiz_uno = GameObject.Find("Raiz");
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
     }

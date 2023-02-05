@@ -310,6 +310,8 @@ public class LugarMapa : MonoBehaviour, IDropHandler
         int intentos = global_state.GetComponent<GlobalState>().cantidad_intentos;
         var puntaje_ui = GameObject.Find("Intentos");
         puntaje_ui.GetComponent<TextMeshProUGUI>().text = intentos.ToString();
+
+        //puntaje_GUI.GetComponent<TextMeshProUGUI>().text = intentos.ToString();
         if (intentos > max_intentos)
         {
             juego_finalizado = true;

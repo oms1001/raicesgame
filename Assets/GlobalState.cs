@@ -5,11 +5,14 @@ using System.Linq;
 
 public class GlobalState : MonoBehaviour
 {
+    public int puntaje = 0;
+    public int cantidad_intentos = 0;
+    public int max_intentos = 5;
     // Start is called before the first frame update
     void Start()
     {
         var raiz = GameObject.Find("Raíz");
-        Debug.Log(raiz.GetComponent<DragAndDrop>().tipoDeRaiz);
+        //Debug.Log(raiz.GetComponent<DragAndDrop>().tipoDeRaiz);
         var Mapa = GameObject.Find("Canvas");
         var elementos = Mapa.GetComponentsInChildren<Transform>(true);
         int numero_celda = 1;
@@ -31,6 +34,6 @@ public class GlobalState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

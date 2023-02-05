@@ -19,7 +19,7 @@ public class CameraMovement : MonoBehaviour
             }
             Vector3 newPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector3 diff = newPos - posInicial;
-            if (Math.Abs(transform.position.x - diff.x) > 7)
+            if (Math.Abs(transform.position.x - diff.x) > 13)
                 diff.x = 0;
             if (Math.Abs(transform.position.y - diff.y) > 7)
                 diff.y = 0;

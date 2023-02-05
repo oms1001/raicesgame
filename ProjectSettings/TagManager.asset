@@ -7,6 +7,7 @@ TagManager:
   - powerUp
   - trap
   - victoria
+  - powerUp2
   layers:
   - Default
   - TransparentFX

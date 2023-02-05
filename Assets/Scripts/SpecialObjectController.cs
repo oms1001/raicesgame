@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class SpecialObjectController : MonoBehaviour
 {
-    public bool type;
-    public Sprite bueno;
-    public Sprite malo;
+    public int type;
+    public Sprite planta;
+    public Sprite agua;
+    public Sprite sequia;
 
     void Start()
     {
-        if (type)
+        if (type==1)
         {
             tag = "powerUp";
-            GetComponent<SpriteRenderer>().sprite = bueno;
+            GetComponent<SpriteRenderer>().sprite = planta;
         }
-        else
+        else if (type==2)
+        {
+            tag = "powerUp2";
+            GetComponent<SpriteRenderer>().sprite = agua;
+        } else if (type == 3)
         {
             tag = "trap";
-            GetComponent<SpriteRenderer>().sprite = malo;
+            GetComponent<SpriteRenderer>().sprite = sequia;
         }
     }
 

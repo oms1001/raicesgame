@@ -79,12 +79,10 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_derecha)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.blue;
                             }
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_abajo"))
                                 {
                                     celda_aprobada();
@@ -97,32 +95,26 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_izquierda)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.blue;
                             }
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.green;
                             }
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.green;
                             }
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_derecha)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.blue;
                             }
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_centro)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                             }
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == abajo_izquierda)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.blue;
                             }
 
                         }
@@ -140,7 +132,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_abajo"))
                                 {
                                     celda_aprobada();
@@ -159,7 +150,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_abajo"))
                                 {
                                     celda_aprobada();
@@ -168,7 +158,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.magenta;
                                 if (tipo_celda.Contains("salida_izquierda"))
                                 {
                                     celda_aprobada();
@@ -177,7 +166,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 Debug.Log(tipo_celda);
                                 if (tipo_celda.Contains("salida_derecha"))
                                 {
@@ -198,7 +186,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_abajo"))
                                 {
                                     celda_aprobada();
@@ -218,7 +205,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == arriba_centro)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_abajo"))
                                 {
                                     celda_aprobada();
@@ -239,7 +225,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == derecha)
                             {
                                 var tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_derecha"))
                                 {
                                     celda_aprobada();
@@ -261,7 +246,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             {
                                 string tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
                                 Debug.Log(tipo_celda);
-                                ob.GetComponent<Image>().color = Color.red;
                                 if (tipo_celda.Contains("salida_derecha"))
                                 {
                                     celda_aprobada();
@@ -270,7 +254,6 @@ public class LugarMapa : MonoBehaviour, IDropHandler
                             if (ob.GetComponent<LugarMapa>().numero_de_celda == izquierda)
                             {
                                 string tipo_celda = ob.GetComponent<LugarMapa>().contenido_celda;
-                                ob.GetComponent<Image>().color = Color.red;
                                 Debug.Log(tipo_celda);
                                 if (tipo_celda.Contains("salida_izquierda") || tipo_celda.Contains("salida_derecha"))
                                 {
